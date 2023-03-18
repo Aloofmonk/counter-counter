@@ -20,10 +20,6 @@ const routes = [
 		name: 'NotFoundPage',
 		component: NotFoundPage,
 	},
-	// { 
-	// 	path: '/:pathMatch(.*)',
-	// 	redirect: "/404" 
-	// },
 ]
 
 const router = createRouter({

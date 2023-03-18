@@ -8,13 +8,10 @@
 </template>
 
 <script>
-// import MyCounter from './components/MyCounter'
 
 export default {
   name: 'App',
-  components: {
-    // MyCounter
-  }
+  
 }
 </script>
 
