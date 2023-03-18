@@ -50,6 +50,7 @@ export default {
 	flex-direction: column;
 	align-items: center;
 	margin-top: 50px;
+	height: 100vh;
 }
 
 h2 {
