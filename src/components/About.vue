@@ -11,7 +11,7 @@
 .about{
 	display: flex;
 	align-items: center;
-	height: 35vh;
+	height: 50vh;
 	justify-content: center;
 }
 .acontainer{
