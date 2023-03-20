@@ -16,9 +16,8 @@
 .acontainer{
 	width: 70%;
 	border-left: 5px solid grey;
-	border-right: 5px solid grey;
 	padding-left: 10px;
-	padding-right: 5px;
+	
 }
 p{
 	text-align: left;
