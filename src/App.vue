@@ -43,7 +43,7 @@ export default {
   color: rgb(84, 82, 82);
 }
 .link:hover{
-  border-bottom: 5px solid grey;
   color: rgb(161, 159, 159);
+  transition: all 0.5s;
 }
 </style>
