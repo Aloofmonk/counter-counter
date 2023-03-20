@@ -1,11 +1,13 @@
 <template>
 	<div class="counter">
-		<h2>Count: {{ count }}</h2>
-		<button @click="increment">+</button>
-		<button @click="decrement">-</button>
-		<button @click="reset">Reset</button>
 		<input type="number" v-model.number="value" />
 		<button @click="setValue(value)">Set Value</button>
+		<h2>{{ count }}</h2>
+		<div class="button-cont">
+			<button @click="decrement">-</button>
+			<button @click="reset">Reset</button>
+			<button @click="increment">+</button>
+		</div>
 	</div>
 </template>
 
@@ -49,25 +51,34 @@ export default {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	justify-content: center;
 	margin-top: 50px;
-	height: 100vh;
+	height: 50vh;
 }
 
 h2 {
-	font-size: 48px;
+	font-size: 60px;
 }
 
 button {
 	font-size: 24px;
 	padding: 10px 20px;
 	margin: 0 10px;
+	border-radius: 8px;
+	background: rgb(188, 183, 183);
+}
+
+button:active {
+	background: grey;
 }
 
 input {
 	font-size: 24px;
-	padding: 10px;
+	padding: 10px 35px;
 	margin: 0 10px;
 	width: 100px;
 	text-align: center;
+	margin-bottom: 15px;
+	border-radius: 15px;
 }
 </style>

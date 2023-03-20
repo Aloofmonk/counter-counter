@@ -19,7 +19,6 @@
 }
 h1{
 	text-align: justify center;
-	
 }
 
 </style>

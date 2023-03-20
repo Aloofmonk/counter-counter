@@ -1,10 +1,13 @@
 <template>
-  <nav class="hnav">
-    <router-link class="link" to="/">About</router-link>
-    <router-link class="link" to="/counter">Go to counter</router-link>
-  </nav>
-  
-  <router-view></router-view>
+  <div class="body">
+
+    <nav class="hnav">
+      <router-link class="link" to="/">About</router-link>
+      <router-link class="link" to="/counter">Go to counter</router-link>
+    </nav>
+    
+    <router-view></router-view>
+  </div>
 </template>
 
 <script>
@@ -23,6 +26,10 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+}
+*{
+  background: whitesmoke
+  ;
 }
 .hnav{
   display: flex;
