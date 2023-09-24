@@ -24,4 +24,11 @@ p{
 	font-size: x-large;
 }
 
+@media (max-width: 767px) {
+	p{
+		text-align: left;
+		font-size: 15px;
+	}
+
+ }
 </style>
